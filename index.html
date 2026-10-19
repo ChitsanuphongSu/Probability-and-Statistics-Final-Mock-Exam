@@ -3,25 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mock Exam · Probability and Statistics</title>
+  <title>Probability and Statistics · Exam Hub</title>
   <style>
-    :root{--ink:#152b46;--blue:#1768a7;--bg:#f3f8fc;--line:#d4e3ef}
-    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:Tahoma,"Noto Sans Thai",sans-serif;display:grid;place-items:center;padding:24px}
-    main{text-align:center;max-width:860px;width:100%}.kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:bold;color:#2871a8}h1{font-size:clamp(30px,5vw,52px);line-height:1.25;margin:12px 0 14px}p{font-size:18px;color:#587087;margin:0 0 34px}.buttons{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.buttons a{display:inline-flex;align-items:center;justify-content:center;min-width:205px;min-height:72px;padding:0 17px;border:1px solid #165f99;border-radius:13px;background:var(--blue);color:#fff;text-decoration:none;font-size:21px;font-weight:bold;box-shadow:0 8px 20px #133c6026;transition:transform .15s,background .15s}.buttons a.pdf{background:#fff;color:var(--blue)}.buttons a:hover,.buttons a:focus-visible{background:#0f5489;color:#fff;transform:translateY(-3px);outline:3px solid #a9d5f3;outline-offset:2px}.buttons a:active{transform:translateY(0)}.foot{margin-top:38px;color:#7690a6;font-size:13px}@media(max-width:650px){.buttons{flex-direction:column}.buttons a{width:100%}}
+    :root{--ink:#142940;--muted:#587087;--blue:#1768a7;--line:#d7e3ee;--bg:#f3f8fc}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Tahoma,"Noto Sans Thai",sans-serif;line-height:1.6}a{text-decoration:none}.wrap{max-width:1000px;margin:auto;padding:0 22px}header{background:linear-gradient(130deg,#102e50,#1b6fa9);color:#fff;padding:48px 0 40px}.eyebrow{font-size:13px;letter-spacing:.11em;font-weight:bold;color:#b7d9f0;text-transform:uppercase}h1{font-size:clamp(31px,5vw,52px);line-height:1.25;margin:9px 0 10px}header p{font-size:18px;color:#e2f0fa;margin:0}.jump{background:#fff;border-bottom:1px solid var(--line)}.jump .wrap{display:flex;gap:8px;flex-wrap:wrap;padding-top:11px;padding-bottom:11px}.jump a{color:#1b5d8f;font-weight:bold;padding:6px 12px;border-radius:8px}.jump a:hover,.jump a:focus-visible{background:#e6f3fb}main{padding-top:22px;padding-bottom:50px}section{scroll-margin-top:20px;margin:28px 0 39px}h2{font-size:28px;margin:0 0 4px}.desc{color:var(--muted);margin:0 0 17px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{display:flex;flex-direction:column;justify-content:space-between;min-height:155px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:19px;box-shadow:0 4px 16px #173a5710;color:var(--ink);transition:transform .15s,border-color .15s,box-shadow .15s}.card:hover,.card:focus-visible{transform:translateY(-3px);border-color:#6ca9d1;box-shadow:0 8px 21px #173a5721;outline:0}.card strong{display:block;font-size:22px;color:#135a91}.card span{color:var(--muted);font-size:14px}.card em{font-style:normal;font-weight:bold;color:#1768a7;margin-top:10px}.card.pdf{min-height:135px;max-width:315px;background:#e9f5fc;border-color:#a8cde6}.card.pdf strong{color:#114c79}footer{border-top:1px solid var(--line);padding:23px 22px 36px;color:var(--muted);font-size:13px}@media(max-width:720px){.grid{grid-template-columns:1fr}.card{min-height:125px}.card.pdf{max-width:none}header{padding:35px 0}}
   </style>
 </head>
 <body>
-  <main>
-    <div class="kicker">Probability and Statistics · Final Exam</div>
-    <h1>รวม Mock Exam วิชา Probability and Statistics</h1>
-    <p>ข้อสอบฝึกทำบทที่ 5 Part 2, บทที่ 6 และบทที่ 7</p>
-    <nav class="buttons" aria-label="เลือกชุดข้อสอบ">
-      <a href="mock_exam_ch5_part2_ch6_ch7.html">Mock Exam ชุดที่ 1</a>
-      <a href="mock_exam_ch5_part2_ch6_ch7_set2.html">Mock Exam ชุดที่ 2</a>
-      <a href="mock_exam_ch5_part2_ch6_ch7_set3.html">Mock Exam ชุดที่ 3</a>
-      <a class="pdf" href="final_exam_review_ch5_part2_ch6_ch7.pdf" target="_blank" rel="noopener">สไลด์สรุปสอบ (PDF)</a>
-    </nav>
-    <div class="foot">เลือกชุดที่ต้องการเพื่อเริ่มทำข้อสอบ</div>
+  <header><div class="wrap"><div class="eyebrow">Probability and Statistics · Study Hub</div><h1>เตรียมสอบวิชา Probability and Statistics</h1><p>เลือกทำข้อสอบจำลอง ทบทวนรายบท หรือเปิดสไลด์สรุป</p></div></header>
+  <nav class="jump" aria-label="ประเภทเนื้อหา"><div class="wrap"><a href="#mock">Mock Exam</a><a href="#quiz">Quiz แยกบท</a><a href="#slides">สไลด์สรุป</a></div></nav>
+  <main class="wrap">
+    <section id="mock"><h2>Mock Exam</h2><p class="desc">ข้อสอบจำลอง 3 ชุด แต่ละชุดมีถูก–ผิด ปรนัย และฝึกอ่านผล SPSS</p><div class="grid">
+      <a class="card" href="mock_exam_ch5_part2_ch6_ch7.html"><div><strong>Mock Exam ชุดที่ 1</strong><span>ฝึกโจทย์รวมบทที่ 5–7</span></div><em>เริ่มทำข้อสอบ →</em></a>
+      <a class="card" href="mock_exam_ch5_part2_ch6_ch7_set2.html"><div><strong>Mock Exam ชุดที่ 2</strong><span>โจทย์และตัวอย่าง SPSS อีกชุด</span></div><em>เริ่มทำข้อสอบ →</em></a>
+      <a class="card" href="mock_exam_ch5_part2_ch6_ch7_set3.html"><div><strong>Mock Exam ชุดที่ 3</strong><span>โจทย์และตัวอย่าง SPSS ชุดที่สาม</span></div><em>เริ่มทำข้อสอบ →</em></a>
+    </div></section>
+    <section id="quiz"><h2>Quiz แยกบท</h2><p class="desc">ฝึกเนื้อหารายบทพร้อมคะแนนรายหัวข้อ เฉลยพร้อมเหตุผล และรายการข้อที่ตอบผิด</p><div class="grid">
+      <a class="card" href="quiz_ch5.html"><div><strong>Quiz บทที่ 5</strong><span>Part 2: ANOVA, multiple comparisons และ Chi-square</span></div><em>30 ข้อ →</em></a>
+      <a class="card" href="quiz_ch6.html"><div><strong>Quiz บทที่ 6</strong><span>การทดสอบแบบไม่ใช้พารามิเตอร์</span></div><em>30 ข้อ →</em></a>
+      <a class="card" href="quiz_ch7.html"><div><strong>Quiz บทที่ 7</strong><span>สหสัมพันธ์และการถดถอยเชิงเส้น</span></div><em>31 ข้อ →</em></a>
+    </div></section>
+    <section id="slides"><h2>สไลด์สรุป</h2><p class="desc">ทบทวนประเด็นสำคัญก่อนทำแบบฝึกหัด</p><a class="card pdf" href="final_exam_review_ch5_part2_ch6_ch7.pdf" target="_blank" rel="noopener"><div><strong>สรุปสอบบทที่ 5–7</strong><span>บทที่ 5 เฉพาะ Part 2 · PDF 16 หน้า</span></div><em>เปิดสไลด์ PDF ↗</em></a></section>
   </main>
+  <footer class="wrap">เอกสารและแบบฝึกหัดสำหรับทบทวนรายวิชา</footer>
 </body>
 </html>
